@@ -1,3 +1,5 @@
+import NavbarTop from "./Navbar";
+import Post from "./Post";
 
 
 const Home=()=>{
@@ -5,7 +7,7 @@ const Home=()=>{
     return (
 <div className="body">
         <div className='head'>
-
+<NavbarTop/>
         </div>
     
         <div className="split-container">
@@ -13,7 +15,7 @@ const Home=()=>{
             
           </div>
           <div className="middle">
-           
+           <Post/>
           </div>
           <div class="right">
           
