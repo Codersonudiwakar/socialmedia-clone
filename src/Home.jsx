@@ -1,5 +1,6 @@
 import NavbarTop from "./Navbar";
 import Post from "./Post";
+import Profile from "./Profile";
 
 
 const Home=()=>{
@@ -15,7 +16,7 @@ const Home=()=>{
             
           </div>
           <div className="middle">
-           <Post/>
+           <Profile/>
           </div>
           <div class="right">
           
