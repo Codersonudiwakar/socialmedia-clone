@@ -4,10 +4,7 @@ import './post.css';
 import { SlLike } from "react-icons/sl";
 import { FaRegComment } from "react-icons/fa";
 import { PiShareFatThin } from "react-icons/pi";
-
-
-
-
+ 
 function PostCard() {
   return (
     <Card style={{ width: '100%',margin:'5px' }}>
