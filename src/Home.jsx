@@ -1,3 +1,5 @@
+import Leftmenu from "./LeftMenu";
+import LeftSideBar from "./LeftSideBar";
 import NavbarTop from "./Navbar";
 import Post from "./Post";
 import Profile from "./Profile";
@@ -13,7 +15,7 @@ const Home=()=>{
     
         <div className="split-container">
           <div className="left">
-            
+            <LeftSideBar/>
           </div>
           <div className="middle">
            <Profile/>

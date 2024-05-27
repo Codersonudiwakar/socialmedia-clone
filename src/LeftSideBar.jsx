@@ -1,18 +1,17 @@
+import Leftmenu from "./LeftMenu";
 import NavbarTop from "./Navbar";
 import Post from "./Post";
 import Card from 'react-bootstrap/Card';
 
 
 
-const Skills=()=>{
+const LeftSideBar=()=>{
 
     return (
-<div className="">
-<Card>
-      <h2></h2>
-    </Card>
+<div className="">   
+       <Leftmenu/>
         
     </div>
     );
 }
-export default Skills;
+export default LeftSideBar;
